@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+}
+header{
+    background-image:url("hotel\ logo2.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.2s ease;
+}
+ul li a:hover{
+    background-color:#fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.logo img{
+  float: left ;
+  width: 150px;
+  height: auto; 
+  margin-left: -50px;
+  background: transparent;
+  left: 20px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate();
+}
+.title h1{
+    color:yellow;
+    font-size: 55px;
+}
+.title  h2{
+    color: white;
+    font-size: 55px;
+}
+.title h3{
+    color:white;
+    font-size: 20px;
+}
+.title h4{
+    color: white;
+    font-size: 18px;
+}
+.services .img{ 
+    overflow: hidden; 
+    border-radius: 5px;
+    height: 30vh;
+
+}
+.services .img img{
+    transition: 0.6s all;
+}
+.services .services_item:hover .img img{
+    transform: scale(1.2);
+}
+
+.services .details{
+
+padding: 40px 50px 40px 50px; 
+margin: 0 50px;
+ background-color: rgba(255,255,255,0.9); 
+ border-radius: 8px;
+  box-shadow: 0 0 500px rgba(0, 0, 0, 0.1); 
+  transform: translateY(-10%); }
+
+/* .services .details .icon{
+
+width: 55px;
+height: 45px;
+background-color: #0ea2bd;
+border-radius: 40%;
+color: #fff;
+font-size: 28px;
+border: 6px solid #fff;
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+position: absolute;
+top: -25px;
+left: calc(40% -36px);
+} */
+.gwsfor {
+    font-size: 70px;
+    margin-left: 5%;
+    top: 100%;
+    margin-bottom: 100px;
+  }
+  .gethe {
+    margin-left: 50%;
+    top: 30px;
+  }
+  .home {
+    margin-left: 50%;
+    margin-top: -12%;
+  }
+  .contact {
+    margin-left: 60%;
+    margin-top: -12%;
+  }
+  .info {
+    margin-left: 70%;
+    margin-top: -12%;
+  }
+  .company {
+    margin-left: 45%;
+    margin-top: -2.5%;
+  }
+  .en {
+    margin-left: 94%;
+    margin-top: -2.3%;
+    font-size: 20px;
+  }
+  footer {
+    border-radius: 38px 38px 0px 0px;
+    background-image: repeating-linear-gradient(white, rgba(8, 105, 112, 0.64));
+  }
+
+  /* @media screen and (max-width: 450px){
+    .main{
+        float: left;
+    }
+  } */
